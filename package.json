@@ -1,5 +1,6 @@
 {
-  "name": "my-bookstore",
+  "name": "test-task",
+  "homepage": "https://prewior.github.io/testTask",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -28,7 +29,7 @@
     "build:ssr": "react-scripts build && npm run ssr",
     "ssr": "node server.js",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
